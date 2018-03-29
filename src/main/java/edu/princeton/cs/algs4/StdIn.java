@@ -115,7 +115,7 @@ import java.util.regex.Pattern;
  *  one line at a time, and prints it to standard output.
  *  <pre>
  *  while (StdIn.hasNextLine()) {
- *      String line = StdIn.readLine();
+ *      string line = StdIn.readLine();
  *      StdOut.println(line);
  *  }
  *  </pre>
@@ -144,7 +144,7 @@ import java.util.regex.Pattern;
  *  As an example, the following code fragment reads all of the remaining
  *  tokens from standard input and returns them as an array of strings.
  *  <pre>
- *  String[] words = StdIn.readAllStrings();
+ *  string[] words = StdIn.readAllStrings();
  *  </pre>
  *  <p>
  *  <b>Differences with Scanner.</b>
@@ -328,9 +328,9 @@ public final class StdIn {
 
 
    /**
-     * Reads the next token  and returns the {@code String}.
+     * Reads the next token  and returns the {@code string}.
      *
-     * @return the next {@code String}
+     * @return the next {@code string}
      * @throws NoSuchElementException if standard input is empty
      */
     public static String readString() {
@@ -338,7 +338,7 @@ public final class StdIn {
             return scanner.next();
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'String' value from standard input, but there are no more tokens available");
+            throw new NoSuchElementException("attempts to read a 'string' value from standard input, but there are no more tokens available");
         }
     }
 

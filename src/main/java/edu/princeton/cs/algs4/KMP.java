@@ -67,9 +67,9 @@ public class KMP {
         dfa[pat.charAt(0)][0] = 1; 
         for (int x = 0, j = 1; j < m; j++) {
             for (int c = 0; c < R; c++) 
-                dfa[c][j] = dfa[c][x];     // Copy mismatch cases. 
-            dfa[pat.charAt(j)][j] = j+1;   // Set match case. 
-            x = dfa[pat.charAt(j)][x];     // Update restart state. 
+                dfa[c][j] = dfa[c][x];     // Copy mismatch cases. 把前一个正确匹配的状态X复制过来
+            dfa[pat.charAt(j)][j] = j+1;   // Set match case. 设置匹配成功后的下一个状态，即j+1
+            x = dfa[pat.charAt(j)][x];     // Update restart state. 把X更新为输入对应字符C后的新值
         } 
     } 
 

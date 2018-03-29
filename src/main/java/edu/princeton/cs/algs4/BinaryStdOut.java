@@ -244,7 +244,7 @@ public final class BinaryStdOut {
 
    /**
      * Writes the string of 8-bit characters to standard output.
-     * @param s the {@code String} to write.
+     * @param s the {@code string} to write.
      * @throws IllegalArgumentException if any character in the string is not
      * between 0 and 255.
      */
@@ -255,7 +255,7 @@ public final class BinaryStdOut {
 
    /**
      * Writes the string of r-bit characters to standard output.
-     * @param s the {@code String} to write.
+     * @param s the {@code string} to write.
      * @param r the number of relevants bits in each character.
      * @throws IllegalArgumentException if r is not between 1 and 16.
      * @throws IllegalArgumentException if any character in the string is not

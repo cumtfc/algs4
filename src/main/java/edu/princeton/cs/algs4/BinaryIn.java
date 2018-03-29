@@ -239,7 +239,7 @@ public final class BinaryIn {
    /**
      * Reads the remaining bytes of data from this binary input stream and return as a string. 
      *
-     * @return the remaining bytes of data from this binary input stream as a {@code String}
+     * @return the remaining bytes of data from this binary input stream as a {@code string}
      * @throws NoSuchElementException if this binary input stream is empty or if the number of bits
      *         available is not a multiple of 8 (byte-aligned)
      */

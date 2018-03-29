@@ -6,7 +6,7 @@
  *
  *  LSD radix sort
  *
- *    - Sort a String[] array of n extended ASCII strings (R = 256), each of length w.
+ *    - Sort a string[] array of n extended ASCII strings (R = 256), each of length w.
  *
  *    - Sort an int[] array of n 32-bit integers, treating each integer as 
  *      a sequence of w = 4 bytes (R = 256).

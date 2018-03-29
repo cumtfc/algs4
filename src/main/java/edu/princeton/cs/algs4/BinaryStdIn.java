@@ -153,7 +153,7 @@ public final class BinaryStdIn {
    /**
      * Reads the remaining bytes of data from standard input and return as a string. 
      *
-     * @return the remaining bytes of data from standard input as a {@code String}
+     * @return the remaining bytes of data from standard input as a {@code string}
      * @throws NoSuchElementException if standard input is empty or if the number of bits
      *         available on standard input is not a multiple of 8 (byte-aligned)
      */

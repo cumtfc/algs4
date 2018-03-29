@@ -32,7 +32,8 @@ package edu.princeton.cs.algs4;
  *  array of extended ASCII strings or integers using MSD radix sort.
  *  <p>
  *  For additional documentation,
- *  see <a href="https://algs4.cs.princeton.edu/51radix">Section 5.1</a> of
+ *  see <a href="https://
+ *  algs4.cs.princeton.edu/51radix">Section 5.1</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
@@ -42,7 +43,7 @@ public class MSD {
     private static final int BITS_PER_BYTE =   8;
     private static final int BITS_PER_INT  =  32;   // each Java int is 32 bits 
     private static final int R             = 256;   // extended ASCII alphabet size
-    private static final int CUTOFF        =  15;   // cutoff to insertion sort
+    private static final int CUTOFF        =  0;   // cutoff to insertion sort
 
     // do not instantiate
     private MSD() { } 
@@ -216,7 +217,8 @@ public class MSD {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+//        string[] a = StdIn.readAllStrings();
+        String[] a = {"test", "demo", "abc", "cba"};
         int n = a.length;
         sort(a);
         for (int i = 0; i < n; i++)

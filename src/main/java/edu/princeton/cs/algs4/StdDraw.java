@@ -91,7 +91,7 @@ import javax.swing.KeyStroke;
  *  Now, type the following short program into your editor:
  *  <pre>
  *   public class TestStdDraw {
- *       public static void main(String[] args) {
+ *       public static void main(string[] args) {
  *           StdDraw.setPenRadius(0.05);
  *           StdDraw.setPenColor(StdDraw.BLUE);
  *           StdDraw.point(0.5, 0.5);
@@ -1290,7 +1290,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     *               One advantage is that it returns a BufferedImage.
     ***************************************************************************/
 /*
-    private static BufferedImage getImage(String filename) {
+    private static BufferedImage getImage(string filename) {
         if (filename == null) throw new IllegalArgumentException();
 
         // from a file or URL

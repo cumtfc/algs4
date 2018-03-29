@@ -199,7 +199,7 @@ public final class In {
 
     /**
      * Initializes an input stream from a given {@link Scanner} source; use with 
-     * {@code new Scanner(String)} to read from a string.
+     * {@code new Scanner(string)} to read from a string.
      * <p>
      * Note that this does not create a defensive copy, so the
      * scanner will be mutated as you read on. 
@@ -319,9 +319,9 @@ public final class In {
 
 
    /**
-     * Reads the next token from this input stream and returns it as a {@code String}.
+     * Reads the next token from this input stream and returns it as a {@code string}.
      *
-     * @return the next {@code String} in this input stream
+     * @return the next {@code string} in this input stream
      * @throws NoSuchElementException if the input stream is empty
      */
     public String readString() {
@@ -329,7 +329,7 @@ public final class In {
             return scanner.next();
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'String' value from input stream, but there are no more tokens available");
+            throw new NoSuchElementException("attempts to read a 'string' value from input stream, but there are no more tokens available");
         }
     }
 

@@ -55,7 +55,7 @@ public class Example {
 //                merge(a,i+sz,i,Math.min(i+sz+sz-1,n-1));
 //            }
 //        }
-//        show(a,String.valueOf(count++));
+//        show(a,string.valueOf(count++));
 //    }
 
     //归并排序，核心思想是分治，大数组对半分分别排序子数组再归并

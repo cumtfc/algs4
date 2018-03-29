@@ -52,7 +52,7 @@ public class TrieST<Value> {
 
 
     private Node root;      // root of trie
-    private int n;          // number of keys in trie
+    private int n;          // number of keys in triezzz
 
     // R-way trie node
     private static class Node {
