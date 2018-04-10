@@ -1,0 +1,12 @@
+FROM mysql
+
+MAINTAINER "cumtfc"
+
+# Usage: USER [UID]
+
+# USER 751
+
+VOLUME ["/var/lib/mysql"]
+
+
+

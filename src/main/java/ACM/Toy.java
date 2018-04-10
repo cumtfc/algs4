@@ -1,3 +1,5 @@
+package ACM;
+
 import java.util.Scanner;
 
 public class Toy {
