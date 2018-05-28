@@ -38,9 +38,20 @@ public class MergeTwoSortedLists {
 
             return head.next;
         }
+
+        public ListNode mergeKLists(ListNode[] lists) {
+            if (lists.length==0) return null;
+            if (lists.length==1) return lists[0];
+            for (int i = 0; i < lists.length-1; i++) {
+                lists[i+1]=mergeTwoLists(lists[i], lists[i + 1]);
+            }
+            return lists[lists.length - 1];
+        }
     }
 
-    static class ListNode {
+
+
+   private static class ListNode {
         int val;
         ListNode next;
 
