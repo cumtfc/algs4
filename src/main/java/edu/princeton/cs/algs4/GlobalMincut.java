@@ -52,7 +52,7 @@ package edu.princeton.cs.algs4;
  * For additional documentation, see
  * <ul>
  * <li>M. Stoer and F. Wagner (1997). A simple min-cut algorithm. <em>Journal of
- * the ACM </em>, 44(4):585-591.
+ * the leetCode </em>, 44(4):585-591.
  * </ul>
  * 
  * @author Marcelo Silva
