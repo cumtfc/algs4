@@ -12,8 +12,7 @@ public class ValidParentheses {
     static class Solution {
         public boolean isValid(String s) {
             if (s.length()%2!=0) return false;
-            Stack<Character> left = new Stack<>();//(
-
+            Stack<Character> left = new Stack<>();
             for (int i = 0; i <s.length() ; i++) {
                 try {
                     switch (s.charAt(i)) {
